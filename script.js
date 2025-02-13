@@ -11,6 +11,6 @@ function populationGrowth(){
 	let nameMonster = prompt('What is the name of the Monster?');
 	
 	document.getElementById('result').innerHTML = 'After ' + timeInHours + ' hours, ' + 'the population of ' + 
-	nameMonster.concat('in',locationMonster).toUpperCase() + ' has risen to ' + finalPopulation;
+	nameMonster.concat(', in ',locationMonster).toUpperCase() + ' has risen to ' + finalPopulation;
 	
 }
